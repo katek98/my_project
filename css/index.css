@@ -1,0 +1,13 @@
+nav {
+    font-family: Gill Sans Extrabold, cursive;
+}
+h1 {
+    font-family: Broadway;
+    color: DodgerBlue;
+    text-align: center;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+}
