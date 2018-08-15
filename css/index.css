@@ -1,13 +1,95 @@
-nav {
-    font-family: Gill Sans Extrabold, cursive;
+   :root {
+    font-family: Century;
 }
-h1 {
-    font-family: Broadway;
-    color: DodgerBlue;
-    text-align: center;
+   
+   body {
+      background: #ffff4d;
+      max-width: 1100px;
+      padding: 0 5px;
+      margin-left: 100px;
+      font-size: 1.2rem;
+   }
+
+header img {
+    margin-top: 35px;
+    margin-left: -35px;
 }
 
-header nav ul li a {
-    color: black;
-    text-decoration: none;
+
+
+header nav {
+      font-size: 1.5rem;
+      position: relative;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      margin-left: 285px;
+      margin-top: -203px;
+   }
+
+
+
+@media(min-width: 400 px) {
+       header nav {
+           display: flex;
+     }
+     header ul {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin-left: 0;
+    padding-left: 0;
 }
+header nav ul li {
+        margin-left: 2%;
+        width: 19%; 
+    }
+}
+
+footer div {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+#aquapark {
+    background:	#FFFAF0;
+    margin-left: -35px;
+}
+
+#aquapark img { 
+margin-bottom: 30px;
+width: 1100px;
+}
+
+
+#feedback {
+    margin-left: auto;
+}
+   h1 {
+      color: DodgerBlue;
+      text-align: center;
+      font-size: 1.5rem;
+      margin-top: 224px;
+   }
+
+   header nav ul li a {
+      color: black;
+      text-decoration: none;
+   }
+
+   header nav ul li a:hover {
+      text-decoration: underline;
+   }
+
+  #feedback h2 {
+      text-align: center;
+      display: flex;
+      flex: 1;
+   }
+   
+   h3 {
+       text-align: center;
+   }
+   
+  
